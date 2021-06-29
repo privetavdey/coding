@@ -1,0 +1,65 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+	color: #333;
+	width: 600px;
+}
+
+h1, h2, h3 {
+	font-family: 'Dela Gothic One', cursive;
+}
+
+h1 {
+	font-size: 64px;
+	line-height: 108px;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 88px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	margin: 16px 0px;
+}
+
+a {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	line-height: 48px;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.banner__picture {
+	height: 500px;
+	background-image: url(../img/pure2.png);
+	background-size: cover;
+}
+
+.header__container {
+	background: #f8f8f8;
+}
+
+.banner__title {
+	background: #f8f8f8;
+}
+
+.links {
+	background: linear-gradient(89.9deg, #C8C4FF 0.07%, #FFC9C9 100.85%);
+}
+
+.footer {
+	background: linear-gradient(89.9deg, #C8C4FF 0.07%, #FFC9C9 100.85%);
+	color: white;
+}
+
