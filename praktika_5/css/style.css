@@ -1,0 +1,37 @@
+@import url(reset.css);
+
+.header__container {
+	background-color: red;
+	padding: 20px;
+	color: white;
+}
+
+.footer__container {
+	background-color: red;
+	padding: 20px;
+	color: white;
+}
+
+.recipes {
+	padding: 50px 0;
+}
+
+.recipe {
+	box-sizing: border-box;
+	border-width: 5px;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: #E5E000;
+	display: inline-block;
+	width: 30%;
+	margin: 0 25px;
+	padding: 33px;
+	vertical-align: top;
+}
+
+.recipes h1 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-bottom: 40px;
+}
