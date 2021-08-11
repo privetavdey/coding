@@ -1,0 +1,73 @@
+@import url(reset.css);
+
+h1 {
+	font-size: 48px;
+	line-height: 56px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: serif;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 400;
+	font-family: serif;
+	margin: 24px 0;
+}
+
+p {
+	font-size: 20px;
+	line-height: 28px;
+	font-family: serif;
+}
+
+
+.content-container {
+	display: flex;
+	justify-content: space-between;
+	align-items:  stretch;
+	margin: 70px 50px;
+	width: 100wv;
+}
+
+
+.column {
+	width: calc((100% - 100px)/3);
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.image-1 {
+	background-image: url(https://sun1-25.userapi.com/impg/OCLB6ClJYrSaUefzlAGhXTictK3eYwkNldwnyg/9yLt43XxoDc.jpg?size=2000x2000&quality=96&sign=aa5bf0a1b0d5694c13c45642d5cb73e2&type=album);
+	background-position: center;
+	background-size: cover;	
+	padding-bottom: 100%;
+}
+
+.image-2 {
+	background-image: url(https://sun1-25.userapi.com/impg/OCLB6ClJYrSaUefzlAGhXTictK3eYwkNldwnyg/9yLt43XxoDc.jpg?size=2000x2000&quality=96&sign=aa5bf0a1b0d5694c13c45642d5cb73e2&type=album);
+	background-position: center;
+	background-size: cover;	
+	padding-bottom: 100%;
+}
+
+.image-3 {
+	background-image: url(https://sun1-27.userapi.com/impg/E1BaTLQf4R3nVRmKUhXXUSRBJqRLUfoXpX44vA/ovwEEV1pUhg.jpg?size=1882x2000&quality=96&sign=2dc86380d23f96f9c25a0d5828dd0cde&type=album);
+	background-position: center;
+	background-size: cover;	
+	padding-bottom: 100%;
+}
+
+.description {
+	padding: 32px;
+}
+
+
+.header-footer-container {
+	margin: auto;
+	padding: 50px;
+	text-align: center;
+	background-color: #FFE138;
+;
+}
