@@ -49,12 +49,13 @@
 @media screen and (min-width: 380px) {
 
 	.content-container {
-		padding: 20px 10%;
+		padding: 110px 10%;
 	}
 
 
 	.news-block {
 		width: calc((100% - 20px)/2);
+		height: 300px;
 	}
 
 	.news-block h2 {
